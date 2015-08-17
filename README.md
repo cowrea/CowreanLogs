@@ -7,6 +7,8 @@ System Requirements:
 - PHP5, PHP5-GD, PHP5-MySQL, PHP5-CLI
 - MySQL-Server
 - Git
+- JpGraph
+- Lynx
 
 Installation:
 
@@ -15,7 +17,7 @@ Installation:
 
   
 2.  Install Packages
-  # apt-get install mysql-server php5 apache php5-mysql php5-gd php5-cli git
+  # apt-get install mysql-server php5 apache php5-mysql php5-gd php5-cli git lynx
 
 
 4.  Edit Apache Configuration
@@ -80,18 +82,27 @@ Installation:
   $ rm /var/www/database.sql
 
 
-10.  Move CowreanLogs into Webserver's-Root-Dir
+10. Download JpGraph
+  $ lynx http://jpgraph.net/download/download.php?p=5
+  if this link doesn't work visit http://jpgraph.net and download JpGraph yourself!
+
+
+11. Extract JpGraph
+  $ tar xfz jpgraph-3.5.0b1.tar.gz
+
+
+12. Move JpGraph
+  # mkdir /usr/share/jpgraph
+  # mv jpgraph-3.5.0b1 /ushr/share/jpgraph/
+
+
+13. Delete JpGraph archiv
+  $ rm jpgraph-3.5.0b1.tar.gz
+
+
+14.  Move CowreanLogs into Webserver's-Root-Dir
   # mv cowreanLogs/* /var/www/
   
 
-11.  Modify permissions
+15.  Modify permissions
   # chown -R www-data:www-date /var/www/
-
-  
-
-  
-
-
-  
-  
-  
