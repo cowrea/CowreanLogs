@@ -1,0 +1,67 @@
+Pallandox
+Molten Core
+5/17 19:43:08.592  GSES crits Lavavernichter for 304.
+5/17 19:43:08.592  Fairhaven's GrayTheLord crits Lavavernichter for 916.
+5/17 19:43:08.592  Lupur gains 36 Mana from Yogilein's Greater Blessing of Wisdom.
+5/17 19:43:08.593  Athiesh gains 36 Mana from Yogilein's Greater Blessing of Wisdom.
+5/17 19:43:08.593  Zotak crits Lavavernichter for 240.
+5/17 19:43:08.594  Zotak's Bloodthirst heals Zotak for 20.
+5/17 19:43:08.594  Critta's Eiertritt crits Lavavernichter for 1144.
+5/17 19:43:08.674  Frozenice gains Ephemeral Power.
+5/17 19:43:08.675  Bloodthirst fades from Zotak.
+5/17 19:43:08.679  Frozenice begins to cast Frostbolt.
+5/17 19:43:08.679  Yami's Sinister Strike was dodged by Lavavernichter.
+5/17 19:43:08.679  Yami attacks. Lavavernichter dodges.
+5/17 19:43:08.679  Yami's Instant Poison VI hits Lavavernichter for 102 Nature damage. (34 resisted)
+5/17 19:43:08.680  Lumlin's Heal heals Graveraider for 1007.
+5/17 19:43:08.680  Graveraider's Shield Bash hits Lavavernichter for 32.
+5/17 19:43:09.347  Athiesh's Shadow Bolt crits Lavavernichter for 2036 Shadow damage.
+5/17 19:43:09.353  Lavavernichter is afflicted by Shadow Vulnerability.
+5/17 19:43:09.402  Onomroe gains 36 Mana from Yogilein's Greater Blessing of Wisdom.
+5/17 19:43:09.402  Icerain's Frostbolt hits Lavavernichter for 872 Frost damage.
+5/17 19:43:09.402  Vexata gains 36 Mana from Yogilein's Greater Blessing of Wisdom.
+5/17 19:43:09.403  Furnier's Healing Potion heals Furnier for 1729.
+5/17 19:43:09.403  Sephilim's Shoot hits Lavavernichter for 30 Nature damage. (90 resisted)
+5/17 19:43:09.403  Sephilim begins to perform Shoot.
+5/17 19:43:09.404  Fairhaven's Multi-Shot crits Lavavernichter for 1044.
+5/17 19:43:09.404  Taxus's Whirlwind hits Lavavernichter for 316.
+5/17 19:43:09.405  Taxus's Bloodthirst heals Taxus for 20.
+5/17 19:43:09.405  Taxus's Whirlwind crits Lavavernichter for 861.
+5/17 19:43:09.405  Taxus's Holy Strength heals Taxus for 91.
+5/17 19:43:09.405  Taxus crits Lavavernichter for 762.
+5/17 19:43:09.407  Lavavernichter suffers 67 Shadow damage from Athiesh's Curse of Agony.
+5/17 19:43:09.407  Lavavernichter hits Graveraider for 561.
+5/17 19:43:09.407  Graveraider reflects 18 Nature damage to Lavavernichter.
+5/17 19:43:09.407  Lavavernichter suffers 176 Shadow damage from Athiesh's Curse of Agony.
+5/17 19:43:09.407  Lavavernichter is afflicted by Deep Wound.
+5/17 19:43:09.410  Bloodthirst fades from Taxus.
+5/17 19:43:09.410  Holy Strength fades from Taxus.
+5/17 19:43:09.410  Taxus gains Holy Strength.
+5/17 19:43:09.411  Thaoki begins to cast Frostbolt.
+5/17 19:43:09.411  Icerain's Fire Blast hits Lavavernichter for 723 Fire damage.
+5/17 19:43:09.411  Inovatu hits Lavavernichter for 140.
+5/17 19:43:09.411  Snej hits Lavavernichter for 94.
+5/17 19:43:09.411  Zotak's Execute hits Lavavernichter for 1102.
+5/17 19:43:10.113  Zotak attacks. Lavavernichter dodges.
+5/17 19:43:10.113  Critta begins to perform Auto Shot.
+5/17 19:43:10.115  Luviarina's Healing Touch heals Furnier for 410.
+5/17 19:43:10.115  Fairhaven begins to perform Auto Shot.
+5/17 19:43:10.115  Taxus crits Lavavernichter for 244.
+5/17 19:43:10.115  Thaoki's Frostbolt crits Lavavernichter for 1365 Frost damage.
+5/17 19:43:10.116  Critta's Auto Shot crits Lavavernichter for 754.
+5/17 19:43:10.116  Bogo's Sinister Strike hits Lavavernichter for 174.
+5/17 19:43:10.117  Bogo attacks. Lavavernichter dodges.
+5/17 19:43:10.117  Brokenblade hits Lavavernichter for 275.
+5/17 19:43:10.117  Brokenblade's Instant Poison VI hits Lavavernichter for 69 Nature damage. (68 resisted)
+5/17 19:43:10.162  Lavavernichter suffers 179 Shadow damage from Lupur's Corruption.
+5/17 19:43:10.164  Dakini's Heal heals Furnier for 748.
+5/17 19:43:10.164  Daraya's Aimed Shot crits Lavavernichter for 1940.
+5/17 19:43:10.168  Simtaka's Healing Touch critically heals Zotak for 651.
+5/17 19:43:10.168  Fairhaven's Auto Shot hits Lavavernichter for 278.
+5/17 19:43:10.169  Brokenblade's Sinister Strike hits Lavavernichter for 301.
+5/17 19:43:10.171  Rejuvenation fades from Simtaka.
+5/17 19:43:10.171  Weakened Soul fades from Simtaka.
+5/17 19:43:10.774  Graveraider hits Lavavernichter for 189.
+5/17 19:43:10.774  Daraya begins to perform Auto Shot.
+5/17 19:43:10.774  Lavavernichter suffers 74 Physical damage from Aronea's Deep Wound.
+
