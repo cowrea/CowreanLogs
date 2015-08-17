@@ -17,7 +17,7 @@ Installation:
 
   
 2.  Install Packages
-  # apt-get install mysql-server php5 apache php5-mysql php5-gd php5-cli git lynx
+  # apt-get install mysql-server php5 apache2 php5-mysql php5-gd php5-cli git lynx
 
 
 4.  Edit Apache Configuration
@@ -67,7 +67,7 @@ Installation:
 
 
 6.  Download CowreanLogs
-  $ git clone https://github/cowrea/CowreanLogs/
+  $ git clone https://github.com/cowrea/CowreanLogs/
 
   
 7. modify CowreanLogs's-Config-File
@@ -75,11 +75,11 @@ Installation:
 
 
 8. Datenbank mit Defaultwerten füllen
-  $ mysql -u cowreanlogs -p CowreanLogs < /var/www/database.sql
+  $ mysql -u cowreanlogs -p CowreanLogs < CowreanLogs/database.sql
 
   
 9. Database-Datei löschen
-  $ rm /var/www/database.sql
+  $ rm CowreanLogs/database.sql
 
 
 10. Download JpGraph
@@ -93,7 +93,7 @@ Installation:
 
 12. Move JpGraph
   # mkdir /usr/share/jpgraph
-  # mv jpgraph-3.5.0b1 /ushr/share/jpgraph/
+  # mv jpgraph-3.5.0b1 /usr/share/jpgraph/
 
 
 13. Delete JpGraph archiv
@@ -105,4 +105,8 @@ Installation:
   
 
 15.  Modify permissions
-  # chown -R www-data:www-date /var/www/
+  # chown -R www-data:www-data /var/www/html/
+
+
+16.  Delete default index-file
+  # rm /var/www/index.html
