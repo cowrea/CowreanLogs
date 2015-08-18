@@ -1,0 +1,61 @@
+main.php
+|
++-$_GET['top'}==1
+| +-mod_navigation.php                                  /* print "Home", "Events" and "Administration", which are links */
+|
++-$_GET['top']==2
+| +-mod_navigation_raid.php                             /* includes "mod_navigation.php" */
+|   +-mod_navigation.php
+|
++-$_GET['left']==1
+| +-mod_filter_char.php                                 /* print "ddlRaid", "ddlChar" and "ddlEncounter
+|
++-$_GET['left']==2
+| +-mod_filter_raid.php                                 /* print logged Raids with some links */
+|
++-$_GET['left']==3
+| +-mod_start.php                                       /* Homescreen with some trash information */
+|
++-$_GET['left']=4
+| +-mod_admin.php                                       /* Show some admin-exclusive menues or forward to "mod_admin_login" if no login 
+|   +-mod_admin_login.php
+|
++-$_GET['left']=5
+| +-mod_create_account.php                              /* Insert New User into Database */
+|
++-$_GET['left']=6
+| mod_upload.php                                        /* Allows HTML-File Upload till filesize 20MB */
+|
++-$_GET['left']=7
+| +-mod_execute_log.php                                 /* Write a Logfile into Database, you could select via a dropdownlist */
+|
++-$_GET['left']==8
+| +-mod_visibility.php                                  /* Not in use */
+|
++-$_GET['left']==9
+| +-mod_forwarding.php                                  /* Forward */
+|
++-$_GET['left']==10
+| +-mod_navigation_raid.php                             /* Just forward to mod_navigation.php */
+|   +-mod_navigation.php                                /* Print "Home, Events, Administration */
+|
++-$_GET['right']==1
+| +-mod_focus.php                                       /* Set some parameters for later use */
+|   +-$_GET['encounter']
+|   | +-mod_encounter.php                               /* Adds encounter Menue if a boss has been selected */
+|   |
+|   +-$_GET['focus']==1
+|   | +-mod_focus_general.php                           /* General Overview, like Deaths, sum damage done, sum healing done, etc. */
+|   |
+|   +-$_GET['focus']==1..8 || 10..14
+|   | +-mod_focus_healing_done.php                      /* default view file, shows spells casted, targets and schools */
+|   |   +-$_GET['spell']!= ''
+|   |     +-mod_focus_spell_overview.php                /* Focus just one spell, get crit, miss, dodge, etc. */
+|   |       +-$_GET['filter1']!=''
+|   |         +-mod_focus_spell.php                     /*  Show a log-table with timestamps of each use of that spell */
+|   |
+|   |-$_GET['focus']==9 || 15
+|     +-mod_focus_timeline.php                          /* Print an graph */
+|
++-$_GET['right']==2
+  +-mod_compare.php                                     /* Not in use */
