@@ -58,5 +58,5 @@
   <tr>
     <td><a href="main.php?top=1&left=3&right=0">Startseite</a></td>
     <td><a href="main.php?top=1&left=2&right=0">Events</a></td>
-    <td><a href="main.php?top=1&left=4&right=0">Administration</td></tr>
+    <td><a href="main.php?top=1&left=4&right=0">Home</td></tr>
 </table>
