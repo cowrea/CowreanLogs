@@ -13,87 +13,87 @@ System Requirements:
 Installation:
 
 1.  System update
-  # apt-get update && sudo apt-get upgrade
+    $ sudo apt-get update && sudo apt-get upgrade
 
   
 2.  Install Packages
-  # apt-get install mysql-server php5 apache2 php5-mysql php5-gd php5-cli git lynx
+    $ sudo apt-get install mysql-server php5 apache2 php5-mysql php5-gd php5-cli git lynx
 
 
 4.  Edit Apache Configuration
-    # nano /etc/php5/apache2/php.ini
+    $ sudo nano /etc/php5/apache2/php.ini
     
-    search for following string, it will be found at Line 806:
-    --------------------------
-    upload_max_filesize = 20M
-    --------------------------
+      search for following string, it will be found at Line 806:
+      --------------------------
+      upload_max_filesize = 20M
+      --------------------------
 
     
-    Also you have to edit Line 674:
-    ---------------------
-    post_max_size = 20M
-    ---------------------
+      Also you have to edit Line 674:
+      ---------------------
+      post_max_size = 20M
+      ---------------------
     
 
 5.  Restart Apache
-    # /etc/init.d/apache2 restart
+    $ sudo /etc/init.d/apache2 restart
 
 
 6.  Create DB-User
     Log into Database:
     $ mysql -u root -p
     
-    Create databse:
-    -------------------------------------------
-    create database if not exists CowreanLogs;
-    -------------------------------------------
+      Create databse:
+      -------------------------------------------
+      create database if not exists CowreanLogs;
+      -------------------------------------------
     
-    Create new DB-User:
-    ---------------------------------------------------------------------------
-    create user 'cowreanlogs'@'localhost' identified by 'geheim';
-    grant usage on *.* to 'cowreanlogs'@'localhost' identified by 'geheim';
-    ---------------------------------------------------------------------------
+      Create new DB-User:
+      ---------------------------------------------------------------------------
+      create user 'cowreanlogs'@'localhost' identified by 'geheim';
+      grant usage on *.* to 'cowreanlogs'@'localhost' identified by 'geheim';
+      ---------------------------------------------------------------------------
 
-    Gain permissions
-    ----------------------------------------------------------------------
-    grant all privileges on CowreanLogs.* to 'cowreanlogs'@'localhost';
-    flush privileges;
-    ----------------------------------------------------------------------
+      Gain permissions
+      ----------------------------------------------------------------------
+      grant all privileges on CowreanLogs.* to 'cowreanlogs'@'localhost';
+      flush privileges;
+      ----------------------------------------------------------------------
       
-    close DB
-    -----
-    quit
-    -----
+      close DB
+      -----
+      quit
+      -----
 
 
 6.  Download CowreanLogs
-  $ git clone https://github.com/cowrea/CowreanLogs/
+    $ git clone https://github.com/cowrea/CowreanLogs/
 
   
 7. modify CowreanLogs's-Config-File
-  $ nano CowreanLogs/conf/conf.php
+    $ nano CowreanLogs/conf/conf.php
 
 
 8. Datenbank mit Defaultwerten füllen
-  $ mysql -u cowreanlogs -p CowreanLogs < CowreanLogs/database.sql
+    $ mysql -u cowreanlogs -p CowreanLogs < CowreanLogs/database.sql
 
   
 9. Database-Datei löschen
-  $ rm CowreanLogs/database.sql
+    $ rm CowreanLogs/database.sql
 
 
 10. Download JpGraph
-  $ lynx http://jpgraph.net/download/download.php?p=5
-  if this link doesn't work visit http://jpgraph.net and download JpGraph yourself!
+    $ lynx http://jpgraph.net/download/download.php?p=5
+    if this link doesn't work visit http://jpgraph.net and download JpGraph yourself!
 
 
 11. Extract JpGraph
-  $ tar xfz jpgraph-3.5.0b1.tar.gz
+    $ tar xfz jpgraph-3.5.0b1.tar.gz
 
 
 12. Move JpGraph
-  # mkdir /usr/share/jpgraph
-  # mv jpgraph-3.5.0b1 /usr/share/jpgraph/
+    $ sudo mkdir /usr/share/jpgraph
+    $ sudo mv jpgraph-3.5.0b1 /usr/share/jpgraph/
 
 
 13. Delete JpGraph archiv
@@ -101,12 +101,12 @@ Installation:
 
 
 14.  Move CowreanLogs into Webserver's-Root-Dir
-  # mv cowreanLogs/* /var/www/
+  $ sudo mv cowreanLogs/* /var/www/
   
 
 15.  Modify permissions
-  # chown -R www-data:www-data /var/www/html/
+  $ sudo chown -R www-data:www-data /var/www/html/
 
 
 16.  Delete default index-file
-  # rm /var/www/index.html
+  $ sudo rm /var/www/index.html
