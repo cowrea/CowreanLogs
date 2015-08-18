@@ -101,7 +101,7 @@ Installation:
 
 
 14.  Move CowreanLogs into Webserver's-Root-Dir
-  $ sudo mv cowreanLogs/* /var/www/
+  $ sudo mv CowreanLogs/* /var/www/html/
   
 
 15.  Modify permissions
@@ -109,4 +109,4 @@ Installation:
 
 
 16.  Delete default index-file
-  $ sudo rm /var/www/index.html
+  $ sudo rm /var/www/html/index.html
