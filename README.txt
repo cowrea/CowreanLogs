@@ -91,6 +91,14 @@ Installation:
     $ tar xfz jpgraph-3.5.0b1.tar.gz
 
 
+12. Modify JpGraph
+    $ nano jpgraph-3.5.0b1/src/gd_image.inc.php
+    
+    Comment out this Line (~110)
+    ------------------------------------------------------------------
+    JpGraphError::RaiseL(25128);//('The function imageantialias() is not available in your PHP installation. Use the GD version that comes with PHP and not the standalone version.')
+    ------------------------------------------------------------------
+
 12. Move JpGraph
     $ sudo mkdir /usr/share/jpgraph
     $ sudo mv jpgraph-3.5.0b1 /usr/share/jpgraph/
