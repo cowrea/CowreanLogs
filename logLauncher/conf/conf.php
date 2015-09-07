@@ -8,7 +8,7 @@
   $debug=false;
   //$debug=true;
 
-  $fileLocation="/home/riekerts/cowrean_logs/alpha/"; // Needed for include
+  $fileLocation="~/cowrean_logs/alpha/"; // Needed for include
   
   //$logfile="log/WoWCombatLog.txt";
   //$logfile="log/WoWCombatLog.txt";
